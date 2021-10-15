@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: rgb(36, 175, 230);
+    color: snow;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: snow;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 970px;
+}
+
+.top-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.top-heading {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.row {
+    display: flex;
+}
+
+.forecast1, .forecast2, .forecast3, .forecast4 {
+    background-color: rgb(214, 213, 213);
+    flex: 1;
+    margin-right: 20px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+img {
+    border-radius: 85px;
+    margin: 40px 0;
+    width: 150px;
+}
+p {
+    font-size: 25px;
+}
+
+.footer {
+    margin: 15px 0;
+}
+
+.cookie-policy {
+    border: 2px solid black;
+    /* box-sizing: border-box; */
+    font-size: 20px;
+    height: 160px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+#cookie {
+    width: 80px;
+}
+
+/* //how can I move this message closer to the cookie?// */
+/* .message {
+    margin-left: 5px;
+} */
+
+button {
+    padding: 10px 20px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    background-color: #9fc5f8;
+}
